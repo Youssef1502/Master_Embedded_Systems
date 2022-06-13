@@ -19,12 +19,6 @@
  - [ ] ![Unit 11: Apply on Embedded Systems Jobs]() [ ***waiting...*** ]
 
 ## ***Third Term*** :   [ ***In_Progress : 0%*** ]
- - [ ] ![Unit 12: Advanced Topics]() [ ***waiting...*** ]
- - [ ] ![Unit 13: Automotive Protocols ]() [ ***waiting...*** ]
- - [ ] ![Unit 14 : ARM & OS ]() [ ***waiting...*** ]
- - [ ] ![Unit 15 : RTOS BASICS]() [ ***waiting...*** ]
- - [ ] ![UNIT 16: AUTOSAR Basics]() [ ***waiting...*** ]
- - [ ] ![UNIT 17: Embedded Linux Basics]() [ ***waiting...*** ]
 
 
 ## ***My Progress Profile:*** : [Click Here](https://www.learn-in-depth.com/online-diploma/youssefadel1502@gmail.com)
