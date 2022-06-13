@@ -1,0 +1,98 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x08000000         0x00020000         xr
+sram             0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x08000000       0xdc
+ *(.vectors*)
+ .vectors       0x08000000       0x18 startup.o
+                0x08000000                vectors
+ *(.text*)
+ .text          0x08000018       0xc4 startup.o
+                0x08000018                Bus_Handler
+                0x08000018                Default_Handler
+                0x08000018                H_fault_Handler
+                0x08000018                Usage_Fault_Handler
+                0x08000018                NMI_Handler
+                0x08000024                Reset_Handler
+ *(.rodata)
+                0x080000dc                _E_text = .
+
+.glue_7         0x080000dc        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x080000dc        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x080000dc        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x080000dc        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x080000dc        0x0
+ .iplt          0x00000000        0x0 startup.o
+
+.rel.dyn        0x080000dc        0x0
+ .rel.iplt      0x00000000        0x0 startup.o
+
+.data           0x20000000        0x0 load address 0x080000dc
+                0x20000000                _S_DATA = .
+ *(.data*)
+ .data          0x20000000        0x0 startup.o
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _E_DATA = .
+
+.igot.plt       0x20000000        0x0 load address 0x080000dc
+ .igot.plt      0x00000000        0x0 startup.o
+
+.bss            0x20000000     0x1000 load address 0x080000dc
+                0x20000000                _S_bss = .
+ *(.bss*)
+ .bss           0x20000000        0x0 startup.o
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _E_bss = .
+                0x20000000                . = ALIGN (0x4)
+                0x20001000                . = (. + 0x1000)
+ *fill*         0x20000000     0x1000 
+                0x20001000                _stack_top = .
+LOAD startup.o
+OUTPUT(Pressure_Controller.elf elf32-littlearm)
+
+.debug_info     0x00000000      0x168
+ .debug_info    0x00000000      0x168 startup.o
+
+.debug_abbrev   0x00000000       0xc2
+ .debug_abbrev  0x00000000       0xc2 startup.o
+
+.debug_loc      0x00000000       0x64
+ .debug_loc     0x00000000       0x64 startup.o
+
+.debug_aranges  0x00000000       0x20
+ .debug_aranges
+                0x00000000       0x20 startup.o
+
+.debug_line     0x00000000       0xaf
+ .debug_line    0x00000000       0xaf startup.o
+
+.debug_str      0x00000000      0x122
+ .debug_str     0x00000000      0x122 startup.o
+                                0x156 (size before relaxing)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 startup.o
+                                 0x12 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 startup.o
+
+.debug_frame    0x00000000       0x4c
+ .debug_frame   0x00000000       0x4c startup.o
