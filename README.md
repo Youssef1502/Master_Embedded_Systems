@@ -11,7 +11,7 @@
  - [x] ![Unit 5: First Term Projects](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%205%20-%20First%20Term%20(%20Projects%20)) [ ***Done*** ] 
 
 ## ***Second Term*** :   [ ***In_Progress : 15%*** ]
- - [x] ![Unit 6: MCU Fundamentals](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%206%20-%20Micro-controller%20Arch) [ ***waiting...*** ]
+ - [x] ![Unit 6: MCU Fundamentals](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%206%20-%20Micro-controller%20Arch) [ ***Done*** ] 
  - [ ] ![Unit 7: MCU Essential Peripherals]() [ ***waiting...*** ]
  - [ ] ![Unit 8: MCU Interfacing]() [ ***waiting...*** ]
  - [ ] ![Unit 9: MCU Timers/ADC]() [ ***waiting...*** ]
