@@ -4,12 +4,12 @@
 #include <util/delay.h>
 
 #define  IO_Base      0x20
-#define  IO_DDRD      *((volatile unsigned int *)(IO_Base + 0x11))
-#define  IO_PORTD     *((volatile unsigned int *)(IO_Base + 0x12))
-#define  INT_GICR     *((volatile unsigned int *)(IO_Base + 0x3B))
-#define  INT_MCUCR    *((volatile unsigned int *)(IO_Base + 0x35))
-#define  INT_MCUCSR   *((volatile unsigned int *)(IO_Base + 0x34))
-#define  INT_SREG     *((volatile unsigned int *)(IO_Base + 0x3F))
+#define  IO_DDRD      *((volatile unsigned char *)(IO_Base + 0x11))
+#define  IO_PORTD     *((volatile unsigned char *)(IO_Base + 0x12))
+#define  INT_GICR     *((volatile unsigned char *)(IO_Base + 0x3B))
+#define  INT_MCUCR    *((volatile unsigned char *)(IO_Base + 0x35))
+#define  INT_MCUCSR   *((volatile unsigned char *)(IO_Base + 0x34))
+#define  INT_SREG     *((volatile unsigned char *)(IO_Base + 0x3F))
 
 ISR(INT0_vect)
 {
