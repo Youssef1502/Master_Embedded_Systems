@@ -26,7 +26,9 @@ void GPIO_Init()
 
 
 	// PA1 AS [ INPUT Floating ]
-
+	PinCfg.GPIO_PinNumber = GPIO_PIN_1;
+	PinCfg.GPIO_MODE = GPIO_MODE_INPUT_FLO;
+	MCAL_GPIO_Init(GPIOA , &PinCfg);
 
 	// PA13 AS [ INPUT Floating ]
 	PinCfg.GPIO_PinNumber = GPIO_PIN_13;
