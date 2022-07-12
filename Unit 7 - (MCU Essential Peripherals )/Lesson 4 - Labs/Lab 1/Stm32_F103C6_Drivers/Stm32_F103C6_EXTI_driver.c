@@ -13,7 +13,7 @@
  */
 
 // Define Array of Pointers
-void (* GP_IRQ_CallBack[15]) (void);
+void (* GP_IRQ_CallBack[16]) (void);
 
 
 /*
