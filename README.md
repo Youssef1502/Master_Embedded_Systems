@@ -13,7 +13,7 @@
 ## ***Second Term*** :   [ ***In_Progress : 40%*** ]
  - [x] ![Unit 6: MCU Fundamentals](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%206%20-%20Micro-controller%20Arch) [ ***Done*** ] 
  - [x] ![Unit 7: MCU Essential Peripherals](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%207%20-%20(MCU%20Essential%20Peripherals%20)) [ ***Done*** ] 
- - [ ] ![Unit 8: MCU Interfacing]() [ ***waiting...*** ]
+ - [ ] ![Unit 8: MCU Interfacing](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%208%20-%20MCU%20Interfacing) [ ***Done*** ]
  - [ ] ![Unit 9: MCU Timers/ADC]() [ ***waiting...*** ]
  - [ ] ![Unit 10: SW Testing/Validation]() [ ***waiting...*** ]
 
