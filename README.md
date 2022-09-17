@@ -4,7 +4,7 @@
 # ***Contents*** :
 
 ## ***First Term*** : [ ***Done*** ] 
- - [x] ![Unit 1: Diploma Prerequisites] [ ***Done*** ] 
+ - [x] Unit 1: Diploma Prerequisites [ ***Done*** ] 
  - [x] ![Unit 2: C Programming](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%202%20-%20C%20Programming) [ ***Done*** ]
  - [x] ![Unit 3: Embedded C](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%203%20-%20Embedded%20C) [ ***Done*** ] 
  - [x] ![Unit 4: System Architect](https://github.com/Youssef1502/Master_Embedded_Systems/tree/main/Unit%204%20-%20System%20Architect) [ ***Done*** ] 
